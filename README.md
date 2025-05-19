@@ -28,21 +28,26 @@ npm run ui
 - [procps](http://procps-ng.sourceforge.net/)
 
 ### Arch (pacman)
+if you are using python > 3.12, install setuptools for python or downgrade
+``` sh
+# install globally
+pacman -S python-setuptools
+```
 
-```console
-# pacman -S pkg-config libxcb xcb-util-wm procps-ng
+``` sh
+pacman -S pkg-config libxcb xcb-util-wm procps-ng libprocps
 ```
 
 ### Debian/Ubuntu (apt)
 
-```console
-# apt install pkg-config libxcb-dev libxcb-shm-dev libxcb-composite-dev libxcb-ewmh-dev libxcb-record-dev libxcb-shape-dev libprocps-dev
+``` sh
+apt install pkg-config libxcb-dev libxcb-shm-dev libxcb-composite-dev libxcb-ewmh-dev libxcb-record-dev libxcb-shape-dev libprocps-dev
 ```
 
 ### Gentoo (portage)
 
-```console
-# emerge --ask --noreplace dev-util/pkgconf x11-libs/libxcb x11-libs/xcb-util-wm sys-process/procps
+```sh
+emerge --ask --noreplace dev-util/pkgconf x11-libs/libxcb x11-libs/xcb-util-wm sys-process/procps
 ```
 
 # Why rewrite?
