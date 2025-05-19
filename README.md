@@ -26,6 +26,7 @@ npm run ui
 - [libxcb-wm](https://gitlab.freedesktop.org/xorg/lib/libxcb-wm)
 - [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
 - [procps](http://procps-ng.sourceforge.net/)
+- [libprocps](https://gitlab.com/procps-ng/procps)
 
 ### Arch (pacman)
 if you are using python > 3.12, install setuptools for python or downgrade
